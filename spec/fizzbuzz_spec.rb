@@ -20,4 +20,17 @@ describe 'fizzbuzz' do
   it 'returns fizz for multiples of 3' do
     expect(fizzbuzz(12)).to eq 'fizz'
   end
+
+  it 'returns buzz for multiples of 5' do
+    expect(fizzbuzz(10)).to eq 'buzz'
+  end
+
+  it 'returns buzz for multiples oof 5' do
+    expect(fizzbuzz(20)).to eq 'buzz'
+  end
+
+  it 'returns fizzbuzz for multiple of both 3 and 5' do
+    expect(fizzbuzz(15)).to eq 'fizzbuzz'
+  end
+
 end
